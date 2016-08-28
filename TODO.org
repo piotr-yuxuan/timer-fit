@@ -98,6 +98,7 @@ know which direction refactor my code toward
 - This step should neither add nor remove any feature. It's merely technical.
 * TODO TBD: sketch upon Thibault idea and need
 ** Don't do anything useless, ask what's wanted to Thibault first
+* TODO Set up online deployment as a github page
 * TODO Integration within Electron app
 ** Compiled javascript output is embedded in Electron app on build
 ** Interactive development with figwheel
