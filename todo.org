@@ -14,7 +14,8 @@ The origination of this project is threfeold:
 Ordered list of thought-to-be best practices emerged from this project:
 1) Keep an up-to-date list of what you've done and what you think is still to be
    done.
-2) List are meant to be sequential, hence work sequentially
+2) List are meant to be sequential, hence work sequentially from the beginning
+   to the end.
 3) Go ahead by short step and monitor your activity with states of this list
    items.
 4) Commit should reflects aforementionned short steps and list item changes
@@ -25,7 +26,6 @@ Ordered list of thought-to-be best practices emerged from this project:
 7) Any time you add a task, utter its definition of done :DOD: (except for running
    tasks).
 
-* Structure your work and mind
 * RUNNING Structure your work and mind
 ** DONE Learn minimal viable knowledge about org-mode
 CLOSED: [2016-08-28 Sun 17:28]
@@ -40,7 +40,7 @@ Few bits I know about org-mode:
 + +Don't use custom TODO keywords+ Well, yes, use some of them as it's easy to set up
   and it strengthen the structure of work to be done.
 ** RUNNING Construct and maintain this document
-*** Define states semantic
+*** RUNNING Define states semantic
 :DOD: My workflow is lean and stable, no states have been added for some time.
 
 - TODO :: to be done later
@@ -48,7 +48,9 @@ Few bits I know about org-mode:
   enforce only zero or one item in that state. You'll waste time if you have
   more than one focus.
 - RUNNING :: running task to be done more than once (for example, update this list)
-- FEEDBACK :: need feedback from Thibault (the user / product owner)
+- FEEDBACK :: add this any time you're willing to alter the product defition and
+     ask Thibault for feedback (aka the user / product owner). It can be to test
+     a feature is made as expected or to submit a new idea.
 - VERIFY :: Just before a task is done, verify it works
 - DONE :: Once you've set a task in this state, you should commit changes
 - CANCELLED :: (hint: British spelling) When a task is put into this state, you
