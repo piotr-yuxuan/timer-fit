@@ -62,15 +62,19 @@ CLOSED: [2016-08-28 Sun 17:17]
 ** DONE Change license
 :DOD: GPL license is available
 CLOSED: [2016-08-28 Sun 17:17]
-* TODO Basic compiling cljs/figwheel hello world
+* DONE Basic compiling cljs/figwheel hello world
+CLOSED: [2016-08-28 Sun 20:28]
+
+Just keep very basic. It's an hello world.
 ** DONE New cljs project with figwheel and reagent
 CLOSED: [2016-08-28 Sun 18:03]
 :DOD: command ~lein figwheel~ get a development environement up and running
 
 No ~reframe~ yet, just get it up and running
+** DONE Material UI components and icons are available
+:DOD: obvious
 * Functional workout exercises list
 ** Get it easy, list is loaded from static code
-** 
 * Add a timer
 ** Don't do anything useless, ask what's wanted to Thibault first
 * TODO Integration within Electron app
