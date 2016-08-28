@@ -11,7 +11,16 @@
 
 ;; define your app data so that it doesn't get over-written on reload
 
-(defonce app-state (atom {:text "Hello world!"}))
+(defonce app-state (atom {:exercice-1 :todo
+                          :exercice-2 :todo
+                          :exercice-3 :todo
+                          :exercice-4 :todo}))
+
+(defn- toggle-state
+  [state]
+  (case state
+    :done :todo
+    :todo :done))
 
 (defn home-page []
   [rui/mui-theme-provider
@@ -19,13 +28,18 @@
                 {:palette {:text-color (ui/color :green600)}})}
    [:div
     [rui/list
-     [rui/list-item {:primary-text "This is an exercise"}]
-     [rui/list-item {:primary-text "This is an exercise"}]
-     [rui/list-item {:primary-text "This is an exercise"}]
-     [rui/list-item {:primary-text "This is an exercise"}]]]])
-
-(defn hello-world []
-  [:h1 (:text @app-state)])
+     [rui/list-item {:primary-text "This is an exercise 1"
+                     :disabled (= :done (:exercice-1 @app-state))
+                     :on-click #(swap! app-state assoc :exercice-1 (toggle-state (:exercice-1 @app-state)))}]
+     [rui/list-item {:primary-text "This is an exercise 2"
+                     :disabled (= :done (:exercice-2 @app-state))
+                     :on-click #(swap! app-state assoc :exercice-2 (toggle-state (:exercice-2 @app-state)))}]
+     [rui/list-item {:primary-text "This is an exercise 3"
+                     :disabled (= :done (:exercice-3 @app-state))
+                     :on-click #(swap! app-state assoc :exercice-3 (toggle-state (:exercice-3 @app-state)))}]
+     [rui/list-item {:primary-text "This is an exercise 4"
+                     :disabled (= :done (:exercice-4 @app-state))
+                     :on-click #(swap! app-state assoc :exercice-4 (toggle-state (:exercice-4 @app-state)))}]]]])
 
 (reagent/render-component [home-page]
                           (. js/document (getElementById "app")))

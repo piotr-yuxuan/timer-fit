@@ -77,7 +77,12 @@ No ~reframe~ yet, just get it up and running
 ** DONE Static list from static code
 CLOSED: [2016-08-28 Sun 20:53]
 :DOD: you can see a list of exercises on screen
-** Add some interactions: when you click on a list item, it's toggled grey / normal
+** DONE Add some interactions: when you click on a list item, it's toggled grey / normal
+CLOSED: [2016-08-28 Sun 21:11]
+:DOD: when you click on a list item, it's toggled grey / normal. Code should be
+minimal
+
+use ~app-db~ state
 * TODO Handle state mutation through ~reframe~
 * TODO Ask Thibault for sketches and his need
 :DOD: Thibault and I have agreed on a clear statement on what is the goal
