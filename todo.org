@@ -22,20 +22,27 @@ Ordered list of thought-to-be best practices emerged from this project:
    unstructured action
 6) Don't loosen your workflow but make list items more synthetic as your mind
    get shaped
+7) Any time you add a task, utter its definition of done :DOD: (except for running
+   tasks).
 
 * Structure your work and mind
+* RUNNING Structure your work and mind
 ** DONE Learn minimal viable knowledge about org-mode
 CLOSED: [2016-08-28 Sun 17:28]
+:DOD: I can barely write this document
+
 Don't waste your time, only basic on-the-fly knowledge of org
 
 Few bits I know about org-mode:
 + Basic structuring
 + Emacs +shortcuts+ key chords <3 (arrow keys + C, M, shift)
 + C-c C-c on line starting by #+ is refreshing settings.
-+ +Don't use custom TODO keywords+ Well, yes, use some as it's easy to set up
++ +Don't use custom TODO keywords+ Well, yes, use some of them as it's easy to set up
   and it strengthen the structure of work to be done.
 ** RUNNING Construct and maintain this document
 *** Define states semantic
+:DOD: My workflow is lean and stable, no states have been added for some time.
+
 - TODO :: to be done later
 - FOCUS :: what I'm currently working on. For the purpose of kata, strictly
   enforce only zero or one item in that state. You'll waste time if you have
@@ -49,10 +56,15 @@ Few bits I know about org-mode:
      written down for cancelling are lapsed.
 * DONE Initialise git repository
 CLOSED: [2016-08-28 Sun 17:17]
+:DOD: ~git~ works
 ** DONE Change license
+:DOD: GPL license is available
 CLOSED: [2016-08-28 Sun 17:17]
 * TODO Basic compiling cljs/figwheel hello world
-** New cljs project with figwheel and reagent
+** DONE New cljs project with figwheel and reagent
+CLOSED: [2016-08-28 Sun 18:03]
+:DOD: command ~lein figwheel~ get a development environement up and running
+
 No ~reframe~ yet, just get it up and running
 * Functional workout exercises list
 ** Get it easy, list is loaded from static code
