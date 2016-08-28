@@ -1,0 +1,66 @@
+#+TITLE: Hammock-driven development notebook
+#+TODO: TODO FOCUS RUNNING FEEDBACK VERIFY | DONE CANCELLED
+#+DATE: 2016-8-28
+
+The origination of this project is threfeold:
+- It's to be seen as a [[https://en.wikipedia.org/wiki/Kata][kata]] to improve my work flow to get efficient, break a
+  main goal into lean, self-contained tasks and get software engineering
+  experience;
+- This product of this work aims at being useful to a friend of mine for its
+  workout gym;
+- Wouldn't it be thrilling to use Clojurescript, ~figwheel~, ~reframe~ and Electron
+  altogether?
+
+Ordered list of thought-to-be best practices emerged from this project:
+1) Keep an up-to-date list of what you've done and what you think is still to be
+   done.
+2) List are meant to be sequential, hence work sequentially
+3) Go ahead by short step and monitor your activity with states of this list
+   items.
+4) Commit should reflects aforementionned short steps and list item changes
+5) Accept to spend time in thinking ahead of time instead of rushing to
+   unstructured action
+6) Don't loosen your workflow but make list items more synthetic as your mind
+   get shaped
+
+* Structure your work and mind
+** DONE Learn minimal viable knowledge about org-mode
+CLOSED: [2016-08-28 Sun 17:28]
+Don't waste your time, only basic on-the-fly knowledge of org
+
+Few bits I know about org-mode:
++ Basic structuring
++ Emacs +shortcuts+ key chords <3 (arrow keys + C, M, shift)
++ C-c C-c on line starting by #+ is refreshing settings.
++ +Don't use custom TODO keywords+ Well, yes, use some as it's easy to set up
+  and it strengthen the structure of work to be done.
+** RUNNING Construct and maintain this document
+*** Define states semantic
+- TODO :: to be done later
+- FOCUS :: what I'm currently working on. For the purpose of kata, strictly
+  enforce only zero or one item in that state. You'll waste time if you have
+  more than one focus.
+- RUNNING :: running task to be done more than once (for example, update this list)
+- FEEDBACK :: need feedback from Thibault (the user / product owner)
+- VERIFY :: Just before a task is done, verify it works
+- DONE :: Once you've set a task in this state, you should commit changes
+- CANCELLED :: (hint: British spelling) When a task is put into this state, you
+     should add a reason. You should not work on this task unless reasons you've
+     written down for cancelling are lapsed.
+* DONE Initialise git repository
+CLOSED: [2016-08-28 Sun 17:17]
+** DONE Change license
+CLOSED: [2016-08-28 Sun 17:17]
+* TODO Basic compiling cljs/figwheel hello world
+** New cljs project with figwheel and reagent
+No ~reframe~ yet, just get it up and running
+* Functional workout exercises list
+** Get it easy, list is loaded from static code
+** 
+* Add a timer
+** Don't do anything useless, ask what's wanted to Thibault first
+* TODO Integration within Electron app
+** Compiled javascript output is embedded in Electron app on build
+** Interactive development with figwheel
+Don't waste time for this unless you're at the point you need to specifically
+test your app native integration
