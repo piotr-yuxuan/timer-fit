@@ -73,9 +73,20 @@ CLOSED: [2016-08-28 Sun 18:03]
 No ~reframe~ yet, just get it up and running
 ** DONE Material UI components and icons are available
 :DOD: obvious
-* Functional workout exercises list
-** Get it easy, list is loaded from static code
-* Add a timer
+* FOCUS Functional workout exercises list
+** Static list from static code
+** Add some interactions: when you click on a list item, it's toggled grey / normal
+* Handle state mutation through ~reframe~
+* Ask Thibault for sketches and his need
+:DOD: Thibault and I have agreed on a clear statement on what is the goal
+* Refactor code from boilerplate state to maintainable state
+:DOD: Code looks professionnal
+
+- This step should add as little abstractions as possible.
+- I choose to refactor code after asking Thibault what he wants so it helps me: I
+know which direction refactor my code toward
+- This step should neither add nor remove any feature. It's merely technical.
+* TBD: sketch upon Thibault idea and need
 ** Don't do anything useless, ask what's wanted to Thibault first
 * TODO Integration within Electron app
 ** Compiled javascript output is embedded in Electron app on build
