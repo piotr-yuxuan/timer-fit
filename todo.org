@@ -74,7 +74,9 @@ No ~reframe~ yet, just get it up and running
 ** DONE Material UI components and icons are available
 :DOD: obvious
 * FOCUS Functional workout exercises list
-** Static list from static code
+** DONE Static list from static code
+CLOSED: [2016-08-28 Sun 20:53]
+:DOD: you can see a list of exercises on screen
 ** Add some interactions: when you click on a list item, it's toggled grey / normal
 * TODO Handle state mutation through ~reframe~
 * TODO Ask Thibault for sketches and his need

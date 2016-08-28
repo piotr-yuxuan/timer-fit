@@ -18,18 +18,11 @@
    {:mui-theme (ui/get-mui-theme
                 {:palette {:text-color (ui/color :green600)}})}
    [:div
-    [rui/app-bar {:title              "Title"
-                  :icon-element-right (ui/icon-button
-                                       (ic/action-account-balance-wallet))}]
-    [rui/paper
-     [:div "Hello"]
-     [rui/mui-theme-provider
-      {:mui-theme (ui/get-mui-theme {:palette {:text-color (ui/color :blue200)}})}
-      [rui/raised-button {:label "Blue button"}]]
-     (ic/action-home {:color (ui/color :grey600)})
-     [rui/raised-button {:label        "Click me"
-                         :icon         (ic/social-group)
-                         :on-touch-tap #(println "clicked")}]]]])
+    [rui/list
+     [rui/list-item {:primary-text "This is an exercise"}]
+     [rui/list-item {:primary-text "This is an exercise"}]
+     [rui/list-item {:primary-text "This is an exercise"}]
+     [rui/list-item {:primary-text "This is an exercise"}]]]])
 
 (defn hello-world []
   [:h1 (:text @app-state)])
