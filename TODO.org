@@ -2,7 +2,7 @@
 #+TODO: TODO FOCUS RUNNING FEEDBACK VERIFY | DONE CANCELLED
 #+DATE: 2016-8-28
 
-The origination of this project is threfeold:
+The origination of this project is threefold:
 - It's to be seen as a [[https://en.wikipedia.org/wiki/Kata][kata]] to improve my work flow to get efficient, break a
   main goal into lean, self-contained tasks and get software engineering
   experience;
