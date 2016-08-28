@@ -73,7 +73,8 @@ CLOSED: [2016-08-28 Sun 18:03]
 No ~reframe~ yet, just get it up and running
 ** DONE Material UI components and icons are available
 :DOD: obvious
-* FOCUS Functional workout exercises list
+* DONE Functional workout exercises list
+CLOSED: [2016-08-28 Sun 21:14]
 ** DONE Static list from static code
 CLOSED: [2016-08-28 Sun 20:53]
 :DOD: you can see a list of exercises on screen
@@ -83,7 +84,9 @@ CLOSED: [2016-08-28 Sun 21:11]
 minimal
 
 use ~app-db~ state
-* TODO Handle state mutation through ~reframe~
+* DONE Publish first sketch on GitHub
+CLOSED: [2016-08-28 Sun 22:12]
+* FOCUS Handle state mutation through ~reframe~
 * TODO Ask Thibault for sketches and his need
 :DOD: Thibault and I have agreed on a clear statement on what is the goal
 * TODO Refactor code from boilerplate state to maintainable state

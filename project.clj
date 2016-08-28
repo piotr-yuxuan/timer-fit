@@ -1,18 +1,19 @@
 (defproject project "0.1.0-SNAPSHOT"
-  :description "FIXME: write this!"
+  :description "TimerFit workout timer as a code kata"
   :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :license {:name "GNU General Public License"
+            :url "http://www.gnu.org/licenses/gpl.html"}
 
   :min-lein-version "2.6.1"
 
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [org.clojure/clojurescript "1.9.89"]
+  :dependencies [[org.clojure/clojure "1.9.0-alpha11"]
+                 [org.clojure/clojurescript "1.9.227"]
                  [org.clojure/core.async "0.2.385"
                   :exclusions [org.clojure/tools.reader]]
                  [reagent "0.6.0-rc" :exclusions [org.clojure/tools.reader
                                                   cljsjs/react]]
-                 [cljs-react-material-ui "0.2.21"]]
+                 [cljs-react-material-ui "0.2.21"]
+                 [re-frame "0.8.0"]]
 
   :plugins [[lein-figwheel "0.5.4-7"]
             [lein-cljsbuild "1.1.3" :exclusions [[org.clojure/clojure]]]]
